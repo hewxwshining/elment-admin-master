@@ -77,7 +77,32 @@ body {
   }
 }
 
-
 pre{
       background-color: #fafafa;
+}
+
+
+//面板
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid $line;
+  // -webkit-box-shadow: 0px 1px 5px $line;
+  // box-shadow: 1px 1px 5px $line;
+
+  .panel-heading {
+    padding:15px;
+    border-bottom: 1px solid  $line;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 14px;
+  }
+
+  .panel-body {
+    padding: 15px;
+  }
+}
+
+.no-bg {
+  background: none !important;
 }

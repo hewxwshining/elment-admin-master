@@ -87,9 +87,23 @@
         <h2>水波纹滤镜</h2>
         <div>
           <el-button id='button-ripple' type="primary" @click="ripple('button-ripple')">点击我</el-button>
-          <img src="./胡歌.jpg" id="img-ripple" alt="" height="200"  @click="ripple('img-ripple')">
+          <img src="./胡歌.jpg" id="img-ripple" alt="" height="200" @click="ripple('img-ripple')">
         </div>
       </div>
+      <br>
+      <div>
+        <h2>文字与背景反色动画</h2>
+        <div class="text-wrapper">
+            <div class="box">
+              <h1>文字与背景反色动画</h1>
+            </div>
+        </div>
+      </div>
+       <br>
+        <br>
+         <br>
+         
+
     </div>
   </div>
 </template>
@@ -105,7 +119,7 @@ export default {
     }
   },
   mounted() {
-  
+
   },
   methods: {
     choice(val) {
@@ -386,6 +400,49 @@ export default {
 
   :checked+.target .share {
     animation: all 1s;
+  }
+}
+
+.text-wrapper {
+  background: #000;
+  // height: 200px;
+  .box {
+    position: absolute;
+    overflow: hidden;
+    isolation: isolate;
+  }
+
+  h1 {
+    white-space: nowrap;
+    margin: 0;
+    mix-blend-mode: difference;
+    font-size: 300%;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+
+  .box::before {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    left: calc(50% - 50vw);
+    top: calc(50% - 50vw);
+    margin: auto;
+    background: linear-gradient(#fff 50%, #000 50%);
+    animation: spin 5s linear infinite;
+  }
+
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
   }
 }
 

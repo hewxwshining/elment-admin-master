@@ -241,6 +241,43 @@ export default [{
 			import ('@/view/pages/page3')
 	}]
 }, {
+	path: '/layout',
+	name: 'layout',
+	meta: {
+		icon: 'icon-zhankaicaidan',
+		title: 'CSS创意与视觉表现'
+	},
+	component: Main,
+	children: [{
+		path: 'parallelogram',
+		name: 'parallelogram',
+		meta: {
+			icon: 'icon-detail',
+			title: '平行四边形'
+		},
+		component: () =>
+			import ('@/view/layout/parallelogram.vue')
+	}, {
+		path: 'transparent-square',
+		name: 'transparent-square',
+		meta: {
+			icon: 'icon-detail',
+			title: '透明方格'
+		},
+		component: () =>
+			import ('@/view/layout/transparent-square.vue')
+
+	}, {
+		path: 'hollow',
+		name: 'hollow',
+		meta: {
+			icon: 'icon-detail',
+			title: '镂空'
+		},
+		component: () =>
+			import ('@/view/layout/hollow.vue')
+	}]
+}, {
 	path: '/multilevel',
 	name: 'multilevel',
 	meta: {

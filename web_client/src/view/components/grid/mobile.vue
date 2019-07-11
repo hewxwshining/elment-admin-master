@@ -43,7 +43,6 @@
 
 .el-row {
   margin-bottom: 10px;
-
   &:last-child {
     margin-bottom: 0;
   }
