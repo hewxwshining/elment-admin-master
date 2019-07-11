@@ -1,0 +1,83 @@
+@import './variable.scss';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 0.75rem;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  user-select: auto;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.0rem;
+}
+
+
+
+.box-shadow-bottom {
+  border-bottom: 1px solid $line;
+  -webkit-box-shadow: 0px 1px 5px $line;
+  box-shadow: 0px 1px 5px $line;
+}
+
+.box-shadow {
+  border: 1px solid $line;
+  -webkit-box-shadow: 0px 1px 5px $line;
+  box-shadow: 1px 1px 5px $line;
+}
+
+.box {
+  border: 1px solid $line;
+  background: #fff !important;
+}
+
+// 除鼠标点击时候的outline轮廓，而保留键盘访问时候的outline轮廓
+.el-button:focus:not(:focus-visible) {
+  outline: 0;
+}
+
+#img-container,
+#video-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+
+  img,
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-height: 85%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+}
+
+@media print {
+  @page {
+    size: 297mm 210mm;
+    /* landscape */
+    /* you can also specify margins here: */
+    margin: 25mm;
+    margin-right: 45mm;
+    /* for compatibility with both A4 and Letter */
+  }
+}
+
+
+pre{
+      background-color: #fafafa;
+}
