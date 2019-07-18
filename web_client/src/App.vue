@@ -5,9 +5,8 @@
 </template>
 <script>
 export default {
-  name: 'App'
-}
-
+  name: "App"
+};
 </script>
 <style lang="scss">
 .size {
@@ -17,7 +16,6 @@ export default {
 }
 
 #app {
-  @extend .size
+  @extend .size;
 }
-
 </style>
