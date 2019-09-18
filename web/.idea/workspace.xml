@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bac688b5-7155-43ac-9203-12f6ec0ee4a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/app.3af078b562ecc4aaaa978652219732c8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/app.3af078b562ecc4aaaa978652219732c8.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/iconfont.a1599d0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/0.a65c74ec1b389c8dcd4a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/0.a65c74ec1b389c8dcd4a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/1.480da10cbb8de6cc390f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/1.480da10cbb8de6cc390f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/10.b82b25530e41c2d00c2d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/10.b82b25530e41c2d00c2d.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/11.071ff6b2ee37a857713a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/11.071ff6b2ee37a857713a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/12.2f28a201a8383ca30955.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/12.2f28a201a8383ca30955.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/2.1e3c65087ddfd1d52715.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/2.1e3c65087ddfd1d52715.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/3.dc63fe80b63da8f5a380.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/3.dc63fe80b63da8f5a380.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/4.6e266514de8ad1b4ce0f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/4.6e266514de8ad1b4ce0f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/5.601a441c43c2a0e30462.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/5.601a441c43c2a0e30462.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/6.82d30c14ddd44e67566a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/6.82d30c14ddd44e67566a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/7.d7d201298bb806f8f891.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/7.d7d201298bb806f8f891.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/8.a375c2bff514541bd091.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/8.a375c2bff514541bd091.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/9.1c943211a8e544a553dc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/9.1c943211a8e544a553dc.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/app.bf90f02fa02e75ea58eb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/app.bf90f02fa02e75ea58eb.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/manifest.4cd29704ee9164f792e1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/manifest.4cd29704ee9164f792e1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/vendor.6ca897dd0d2be4a3709e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/vendor.6ca897dd0d2be4a3709e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_client/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web_client/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web_client/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_client/src/router/routers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web_client/src/router/routers.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/web$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1568798906115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controller/user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/controller/user.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="570" />
+    <option name="y" value="64" />
+    <option name="width" value="1303" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Flask server.Flask (app.py)">
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" factoryName="Flask server" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="web" type="Python.FlaskServer" factoryName="Flask server">
+      <module name="web" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask server.Flask (app.py)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bac688b5-7155-43ac-9203-12f6ec0ee4a8" name="Default Changelist" comment="" />
+      <created>1568796586139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568796586139</updated>
+      <workItem from="1568796588111" duration="2313000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2313000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12739871" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4262473" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/controller/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

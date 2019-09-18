@@ -1,0 +1,2 @@
+webpackJsonp([20],{"5LYk":function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var s={render:function(){var e=this.$createElement;return(this._self._c||e)("div",[this._v("\n\tthis is canvas diy\n")])},staticRenderFns:[]},l=t("VU/8")(null,s,!1,null,null,null);n.default=l.exports}});
+//# sourceMappingURL=20.abbe9d459c3b0163a650.js.map

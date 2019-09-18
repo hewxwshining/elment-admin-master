@@ -276,6 +276,15 @@ export default [{
 		},
 		component: () =>
 			import ('@/view/layout/hollow.vue')
+	}, {
+		path: 'pie',
+		name: 'pie',
+		meta: {
+			icon: 'icon-detail',
+			title: '饼图'
+		},
+		component: () =>
+			import ('@/view/layout/pie.vue')
 	}]
 }, {
 	path: '/multilevel',
