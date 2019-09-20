@@ -68,6 +68,15 @@ export default [{
 			import ('@/view/home/home2')
 	}]
 }, {
+	path: '/login',
+	name: 'login',
+	meta: {
+		icon: "",
+		title: "登录"
+	},
+	component: () =>
+		import ('@/view/login/login')
+}, {
 	path: '/html',
 	name: 'html',
 	component: Main,

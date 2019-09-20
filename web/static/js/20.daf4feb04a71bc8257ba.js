@@ -1,0 +1,2 @@
+webpackJsonp([20],{VbEp:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var s={render:function(){var e=this.$createElement;return(this._self._c||e)("div",[this._v("\n\tthis is fabricjs\n")])},staticRenderFns:[]},l=n("VU/8")(null,s,!1,null,null,null);t.default=l.exports}});
+//# sourceMappingURL=20.daf4feb04a71bc8257ba.js.map
