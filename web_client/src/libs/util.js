@@ -11,6 +11,50 @@ import {
 export const hasChild = (item) => {
 	return item.children && item.children.length !== 0
 }
+
+/**
+ * @param {*} access 用户权限数组，如 ['super_admin', 'admin']
+ * @param {*} route 路由列表
+ */
+const hasAccess = (access, route) => {
+	if (route.meta && route.meta.access) return hasOneOf(access, route.meta.access)
+	else return true
+}
+/**
+ * 权鉴
+ * @param {*} name 即将跳转的路由name
+ * @param {*} access 用户权限数组
+ * @param {*} routes 路由列表
+ * @description 用户是否可跳转到该页
+ */
+export const canTurnTo = (name, access, routes) => {
+	const routePermissionJudge = (list) => {
+		return list.some(item => {
+			if (item.children && item.children.length) {
+				return routePermissionJudge(item.children)
+			} else if (item.name === name) {
+				return hasAccess(access, item)
+			}
+		})
+	}
+
+	return routePermissionJudge(routes)
+}
+
+/**
+ * @param {String} url
+ * @description 从URL中解析参数
+ */
+export const getParams = url => {
+	const keyValueArr = url.split('?')[1].split('&')
+	let paramObj = {}
+	keyValueArr.forEach(item => {
+		const keyValue = item.split('=')
+		paramObj[keyValue[0]] = keyValue[1]
+	})
+	return paramObj
+}
+
 const showThisMenuEle = (item, access) => {
 	if (item.meta && item.meta.access && item.meta.access.length) {
 		if (hasOneOf(item.meta.access, access)) return true
@@ -213,4 +257,16 @@ export const getNextRoute = (list, route) => {
 		else res = list[index + 1]
 	}
 	return res
+}
+
+/**
+ * @description 根据当前跳转的路由设置显示在浏览器标签的title
+ * @param {Object} routeItem 路由对象
+ * @param {Object} vm Vue实例
+ */
+export const setTitle = (routeItem, vm) => {
+	const handledRoute = getRouteTitleHandled(routeItem)
+	const pageTitle = showTitle(handledRoute, vm)
+	const resTitle = pageTitle ? `${title} - ${pageTitle}` : title
+	window.document.title = resTitle
 }

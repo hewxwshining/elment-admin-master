@@ -71,6 +71,7 @@ export default [{
 	path: '/login',
 	name: 'login',
 	meta: {
+		hideInMenu: true,
 		icon: "",
 		title: "登录"
 	},

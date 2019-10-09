@@ -5,7 +5,12 @@
     </el-aside>
     <el-container>
       <el-header height="50px" class="box-shadow-bottom">
-        <header-bar :isCollapse="collapsed" @listenHandleCollapse="handleCollapsedChange"></header-bar>
+        <header-bar :isCollapse="collapsed" @listenHandleCollapse="handleCollapsedChange">
+          <div>
+            {{username||'用户名'}}
+            <el-button type="text" @click="logout()">退出</el-button>
+          </div>
+        </header-bar>
       </el-header>
       <el-container direction="vertical">
         <div class="tag-nav-wrapper">
@@ -22,11 +27,13 @@
 import SideMenu from './components/side-menu/side-menu'
 import HeaderBar from './components/header-bar/header-bar'
 import TagNav from './components/tag-nav/tag-nav'
-
 import routers from '@/router/routers'
-
 import { mapMutations, mapActions, mapGetters } from 'vuex'
 import { getNewTagList, routeEqual } from '@/libs/util'
+import {
+  setToken
+} from '@/libs/cookies'
+
 export default {
   name: "Main",
   data() {
@@ -40,6 +47,9 @@ export default {
     },
     tagNavList() {
       return this.$store.state.app.tagNavList;
+    },
+    username() {
+      return this.$store.state.user.username;
     }
   },
   components: {
@@ -83,6 +93,10 @@ export default {
     },
     handleClick(item) {
       this.turnToPage(item)
+    },
+    logout() {
+      setToken("");
+      this.$router.push({ name: 'login' })
     },
     ...mapMutations([
       'setBreadCrumb',
@@ -134,7 +148,8 @@ export default {
 .el-main {
   position: relative;
   background: $bg;
-  &>div{
+
+  &>div {
     background: #fff;
   }
 }

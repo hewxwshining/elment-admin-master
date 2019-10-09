@@ -14,6 +14,7 @@
           </el-input>
           <el-button type="primary" size="small" @click="submit()">登录</el-button>
           <p class="login-tip">输入任意用户名和密码即可</p>
+          <el-button type="text" @click="loginGit()">Login with GitHub</el-button>
         </el-form>
       </el-card>
     </div>
@@ -46,6 +47,13 @@ export default {
           }, 1000)
         })
       })
+    },
+    loginGit() {
+      const client_id = '0768d5f1c46456bf149d';
+      const authorize_uri = 'https://github.com/login/oauth/authorize';
+      const redirect_uri = 'http://localhost:5000/oauth/redirect';
+      const link = document.getElementById('login');
+      window.location.href = `${authorize_uri}?client_id=${client_id}&redirect_uri=${redirect_uri}`;
     },
     ...mapActions([
       "handleLogin",
