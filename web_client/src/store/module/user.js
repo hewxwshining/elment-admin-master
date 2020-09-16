@@ -11,7 +11,7 @@ import {
 
 
 export default {
-	stete: {
+	state: {
 		userName: "",
 		userId: '',
 		hasGetInfo: false,
